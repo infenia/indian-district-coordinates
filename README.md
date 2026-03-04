@@ -2,7 +2,11 @@
 
 A repository for Indian district boundaries and their calculated centroid coordinates. This project allows converting complex TopoJSON boundary data into lightweight centroid coordinates suitable for map markers and geo-coordinate searches in databases.
 
-## 📁 Directory Structure
+## � Data Source
+
+The boundary data used in this project is sourced from the [DataMeet Indian District Boundaries](https://github.com/datameet/indian-district-boundaries/tree/master/topojson) repository.
+
+## �📁 Directory Structure
 
 - `json/boundary/`: Contains the raw TopoJSON boundary data (e.g., `india-districts-2019-734.json`).
 - `json/centroids/`: Contains the generated centroid coordinates in both standard JSON and GeoJSON formats.
